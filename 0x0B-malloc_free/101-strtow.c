@@ -1,4 +1,4 @@
-9#include "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 void util(char **, char *);
@@ -95,3 +95,4 @@ void create_word(char **words, char *str, int start, int end, int index)
 		words[index][j] = str[start];
 	words[index][j] = '\0';
 }
+
